@@ -1,0 +1,14 @@
+(executable
+  (name main)
+  (libraries
+    core
+    lwt
+    lwt.unix
+    owl-top
+  )
+  (preprocess (pps
+    ppx_jane
+    lwt_ppx
+  ))
+  (modes exe)
+)

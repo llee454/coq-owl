@@ -1,0 +1,30 @@
+opam-version: "2.0"
+maintainer: "Asemio"
+authors: [
+  "Asemio"
+]
+synopsis: "Asemio"
+description: """
+Asemio
+"""
+license: "NONE"
+tags: []
+homepage: ""
+doc: ""
+bug-reports: ""
+depends: [
+  "ocaml" { = "4.10.0" }
+  "dune" { >= "2.6.0" }
+  "ocaml-lsp-server"
+  "ocamlformat" { = "0.15.1" }
+  "owl"
+  "owl-top"
+  "ppx_jane"
+  "core_kernel"
+  "core"
+  "lwt"
+  "lwt_ppx"
+  "csv-lwt"
+  "SZXX" { = "2.0.0" }
+  "conf-libev"
+]
