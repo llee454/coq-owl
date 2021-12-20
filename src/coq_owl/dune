@@ -1,15 +1,13 @@
-(executable
-  (name main)
+(library
+  (name coq_owl)
   (libraries
     core
     lwt
     lwt.unix
     owl-top
-    coq_owl
   )
   (preprocess (pps
     ppx_jane
     lwt_ppx
   ))
-  (modes exe)
 )

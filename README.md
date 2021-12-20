@@ -16,3 +16,8 @@ Initializing the Build Environment
 6. cd src
 7. dune build
 8. dune exe ./main.exe
+
+Note: Coq uses make files to generate libraries. Execute the following commands to generate the Coq Makefiles and to compile the Coq libraries:
+
+9. coq_makefile -f _CoqProject > Makefile
+10. make
